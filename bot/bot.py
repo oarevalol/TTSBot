@@ -30,6 +30,8 @@ if __name__ == '__main__':
     updater = Updater(token=token, use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('tts', tts, pass_args=True))
+    dispatcher.add_handler(CommandHandler('start', start))
+
 
     updater.start_polling()
     updater.idle()
