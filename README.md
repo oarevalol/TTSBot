@@ -4,7 +4,7 @@ Dockerized Telegram Text to Speech bot
 
 It receives the string ```/tts <sentence>``` then it sends an audio to the user
 
-Available as @ArevaloBot in Telegram
+Available as [@ArevaloBot](https://telegram.me/ArevaloBot) in Telegram
 
 To replicate this bot, follow these instructions:
 
